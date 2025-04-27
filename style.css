@@ -15,8 +15,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow-x: hidden;
-    
+       
     
 }
 h1{
@@ -26,7 +25,8 @@ h1{
   font-size: 100px;
   cursor: none;
   text-align: center;
-  position: relative;
+  
+ 
 }
 #cursor{
     height: 10px;
