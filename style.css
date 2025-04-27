@@ -1,0 +1,43 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box; 
+}
+html,body {
+height: 100%;
+width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    
+    
+}
+h1{
+    color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 100px;
+  cursor: none;
+  text-align: center;
+  position: relative;
+}
+#cursor{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    mix-blend-mode: difference;
+    transition: all linear 0.2s;
+}
+
+
+
+
